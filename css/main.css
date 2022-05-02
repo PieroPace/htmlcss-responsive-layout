@@ -23,6 +23,12 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+.padding{
+    padding: 0.7rem;
+}
+.padd2{
+    padding: 2rem;
+}
 .container-p-medium {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -59,7 +65,16 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-
+.btn{
+    background-color:#0084FD;
+    padding: 0.6em 1.3em;
+    border-radius: 20px;
+    color: white;
+    display: inline;
+}
+.margin{
+    margin-left: 50px;
+}
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -81,10 +96,18 @@
     flex-basis: 100%;
 }
 .card {
-    /* SOLO PER DEBUG */
-    background-color: red;
+    background-color: #B5DDFF;
     border-radius: 1rem;
     min-height: 100px;
+}
+.imgphone{
+    max-width: 300px;
+    margin-left: 150px;
+    padding: 50px 70px 0 0;
+}
+
+.txtcolor{
+    color: #0084FD;
 }
 .bg-primary {
     background-color: var(--color-primary);
